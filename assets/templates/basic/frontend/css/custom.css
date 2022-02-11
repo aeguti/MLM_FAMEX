@@ -1,0 +1,122 @@
+.site-logo img{
+    width: 160px;
+    height: 40px;
+}
+@media(max-width: 575px){
+    .site-logo img{
+        width: 120px;
+    }
+}
+
+.modal {
+    z-index: 10000;
+}
+.modal-content {
+    border-radius: 0;
+    border: 0;
+}
+.modal-header {
+    background: #ff7149;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.modal-footer, .modal-header {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.input-group-text {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.mt-minus-15 {
+    margin-top: -15px !important;
+}
+
+.btn--dark, .btn--success {
+    color: #fff;
+}
+
+.comment-area {
+    border: 1px solid #ddd;
+    padding: 1.2rem;
+}
+
+.card.support-ticket {
+   border: none;
+}
+.card.support-ticket .card-header{
+    background-color: #36274c;
+    display: flex;
+}
+
+.card.support-ticket .card-title{
+    color: #fff;
+}
+
+.card.support-ticket .badge{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+}
+
+.card.support-ticket .badge-success{
+    background-color: #33c62a
+}
+
+.support-ticket-section .add-more-btn {
+    background-color: #33c62a;
+    padding: 0.2rem 0.4rem;
+    color: #fff;
+    border-radius: 0.2rem;
+}
+
+
+.card.support-ticket .close-btn {
+    background-color: #ff0303;
+    padding: 0.5rem;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 0.9rem;
+    border-radius: 0.2rem;
+}
+
+.comment-item {
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.comment-item.user {
+    background-color: #ff71491c;
+}
+
+.comment-item.admin {
+    background-color: #36274c1c;
+}
+.comment-thumb{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.comment-content{
+    width: calc(100% - 70px);
+    padding-left: 20px;
+}
+.comment-post{
+    font-size: 10px;
+    font-weight: 600;
+    font-style: italic;
+    display: block;
+}
+.comment-custom-style{
+    font-size: 14px;
+    font-weight: 500;
+}

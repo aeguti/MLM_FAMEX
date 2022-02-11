@@ -1,0 +1,48 @@
+@media(max-width:320px){
+	.auction-item-details .item-bid-price-time .bid-timer {
+      font-size: 20px !important;
+    }
+}
+
+
+.cookie-policy {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    padding: 30px 0;
+    z-index: 99;
+      background: #36274c;
+}
+
+.cookie-policy .text--base {
+    color: #007bff;
+}
+
+.cookie-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cookie-wrapper .cmn--btn {
+    font-size: 12px;
+}
+
+.cookie-wrapper .cookie-cont {
+    max-width: 650px;
+}
+
+@media (max-width: 991px) {
+    .cookie-wrapper {
+        text-align: center;
+    }
+
+    .cookie-wrapper .cmn--btn {
+        margin-top: 30px;
+    }
+}
