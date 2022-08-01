@@ -69,8 +69,9 @@ class PlanController extends Controller
                 }
 
                 $details = Auth::user()->username . ' Subscribed to ' . $plan->name . ' plan.';
+                $bv = ($plan->bv * $plan->price)/100;
 
-                updateBV($user->id, $plan->bv, $details);
+                updateBV($user->id, $bv, $details);
 
                 if ($plan->tree_com > 0) {
                     treeComission($user->id, $plan->tree_com, $details);
